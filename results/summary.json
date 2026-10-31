@@ -1,0 +1,180 @@
+{
+  "data": "Deterministic synthetic identifier sets; no external or private data.",
+  "seeds": 160,
+  "seed_sweep": [
+    {
+      "union_truth": 4000,
+      "intersection_truth": 4,
+      "k": 32,
+      "seeds": 160,
+      "union": {
+        "mean": 3992.7602739054623,
+        "relative_mean_error": -0.0018099315236344005,
+        "relative_rmse": 0.19178433012702775
+      },
+      "intersection": {
+        "mean": 3.9475571010948656,
+        "relative_mean_error": -0.013110724726283607,
+        "relative_rmse": 5.56056968929546
+      },
+      "jaccard_mean": 0.0010080645161290322,
+      "jaccard_truth": 0.001,
+      "naive_retained_intersection_over_k_mean": 0.0015625,
+      "zero_hit_fraction": 0.96875,
+      "ideal_zero_hit_probability": 0.9693471532736189,
+      "ideal_intersection_relative_sd": 5.751086853804244,
+      "ideal_union_relative_sd": 0.18186533479473213
+    },
+    {
+      "union_truth": 4000,
+      "intersection_truth": 4,
+      "k": 128,
+      "seeds": 160,
+      "union": {
+        "mean": 4029.1229953896996,
+        "relative_mean_error": 0.007280748847424912,
+        "relative_rmse": 0.10504608673059283
+      },
+      "intersection": {
+        "mean": 2.9242897339814644,
+        "relative_mean_error": -0.2689275665046339,
+        "relative_rmse": 2.5750607157985854
+      },
+      "jaccard_mean": 0.0007381889763779527,
+      "jaccard_truth": 0.001,
+      "naive_retained_intersection_over_k_mean": 0.00166015625,
+      "zero_hit_fraction": 0.91875,
+      "ideal_zero_hit_probability": 0.8788781114471139,
+      "ideal_intersection_relative_sd": 2.7720973665302253,
+      "ideal_union_relative_sd": 0.08766141573990126
+    },
+    {
+      "union_truth": 4000,
+      "intersection_truth": 4,
+      "k": 512,
+      "seeds": 160,
+      "union": {
+        "mean": 4007.5816309425463,
+        "relative_mean_error": 0.0018954077356365673,
+        "relative_rmse": 0.040237708380242584
+      },
+      "intersection": {
+        "mean": 3.972675503187869,
+        "relative_mean_error": -0.006831124203032779,
+        "relative_rmse": 1.4144727675938271
+      },
+      "jaccard_mean": 0.0009907045009784736,
+      "jaccard_truth": 0.001,
+      "naive_retained_intersection_over_k_mean": 0.0018798828125,
+      "zero_hit_fraction": 0.6,
+      "ideal_zero_hit_probability": 0.5787199346214822,
+      "ideal_intersection_relative_sd": 1.3077821369200064,
+      "ideal_union_relative_sd": 0.04135570235949402
+    },
+    {
+      "union_truth": 4000,
+      "intersection_truth": 400,
+      "k": 32,
+      "seeds": 160,
+      "union": {
+        "mean": 3992.7602739054623,
+        "relative_mean_error": -0.0018099315236344005,
+        "relative_rmse": 0.19178433012702775
+      },
+      "intersection": {
+        "mean": 389.35732138692345,
+        "relative_mean_error": -0.026606696532691432,
+        "relative_rmse": 0.583030474553352
+      },
+      "jaccard_mean": 0.09778225806451613,
+      "jaccard_truth": 0.1,
+      "naive_retained_intersection_over_k_mean": 0.16171875,
+      "zero_hit_fraction": 0.05625,
+      "ideal_zero_hit_probability": 0.03765978815729153,
+      "ideal_intersection_relative_sd": 0.5751086853804245,
+      "ideal_union_relative_sd": 0.18186533479473213
+    },
+    {
+      "union_truth": 4000,
+      "intersection_truth": 400,
+      "k": 128,
+      "seeds": 160,
+      "union": {
+        "mean": 4029.1229953896996,
+        "relative_mean_error": 0.007280748847424912,
+        "relative_rmse": 0.10504608673059283
+      },
+      "intersection": {
+        "mean": 401.2332217382562,
+        "relative_mean_error": 0.003083054345640379,
+        "relative_rmse": 0.290644911466673
+      },
+      "jaccard_mean": 0.09931102362204725,
+      "jaccard_truth": 0.1,
+      "naive_retained_intersection_over_k_mean": 0.170458984375,
+      "zero_hit_fraction": 0.0,
+      "ideal_zero_hit_probability": 1.2304766586495501e-06,
+      "ideal_intersection_relative_sd": 0.2772097366530225,
+      "ideal_union_relative_sd": 0.08766141573990126
+    },
+    {
+      "union_truth": 4000,
+      "intersection_truth": 400,
+      "k": 512,
+      "seeds": 160,
+      "union": {
+        "mean": 4007.5816309425463,
+        "relative_mean_error": 0.0018954077356365673,
+        "relative_rmse": 0.040237708380242584
+      },
+      "intersection": {
+        "mean": 403.83730069815766,
+        "relative_mean_error": 0.009593251745394049,
+        "relative_rmse": 0.13746598085741066
+      },
+      "jaccard_mean": 0.10070939334637963,
+      "jaccard_truth": 0.1,
+      "naive_retained_intersection_over_k_mean": 0.1796875,
+      "zero_hit_fraction": 0.0,
+      "ideal_zero_hit_probability": 7.740402758875658e-26,
+      "ideal_intersection_relative_sd": 0.13077821369200066,
+      "ideal_union_relative_sd": 0.04135570235949402
+    }
+  ],
+  "merge": {
+    "input_events": 11667,
+    "distinct_identifiers": 5000,
+    "partitions": 8,
+    "retained_fingerprints": 128,
+    "estimate": 4871.927140975447,
+    "serialized_json_bytes": 4564,
+    "direct_equals_merged": true,
+    "partition_replay_idempotent": true
+  },
+  "collision": {
+    "true_union": 600,
+    "true_intersection": 0,
+    "results": [
+      {
+        "hash_bits": 8,
+        "union_estimate": 227.0,
+        "intersection_estimate": 117.0,
+        "jaccard_estimate": 0.5154185022026432,
+        "sample_size": 227,
+        "intersection_hits": 117,
+        "threshold": 1.0,
+        "exact_hash_domain": true
+      },
+      {
+        "hash_bits": 128,
+        "union_estimate": 600.0,
+        "intersection_estimate": 0.0,
+        "jaccard_estimate": 0.0,
+        "sample_size": 600,
+        "intersection_hits": 0,
+        "threshold": 1.0,
+        "exact_hash_domain": true
+      }
+    ]
+  }
+}
